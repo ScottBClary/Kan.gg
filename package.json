@@ -1,0 +1,50 @@
+{
+
+  "scripts": {
+
+    "getData": "node /Users/scottclary/Coding/KanjiMVP/webScraper/app.js",
+
+    "regExRunner": "node ./webScraper/regExRunner.js"
+
+  },
+
+  "license": "Unlicensed",
+
+  "dependencies": {
+
+    "axios": "^0.27.2",
+
+    "csv-writer": "^1.6.0",
+
+    "fs": "^0.0.1-security",
+
+    "mysql2": "^2.3.3",
+
+    "path": "^0.12.7",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.41.0",
+    "webpack-cli": "^4.7.2"
+
+  },
+
+  "devDependencies": {
+
+    "eslint": "^8.17.0",
+
+    "eslint-config-airbnb-base": "^15.0.0",
+
+    "eslint-plugin-import": "^2.26.0"
+
+  }
+
+}
+
