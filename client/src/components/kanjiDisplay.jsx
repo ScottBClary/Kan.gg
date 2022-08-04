@@ -25,6 +25,7 @@ function KanjiDisplay(props) {
       <div className='KanjiDisplay'>
 
         <p id='rightAnswer' >✓</p>
+        <p id='pronounciationText'>Pronounciation: {props.pronounciation}</p>
         <p>{props.kanji}</p>
       </div>
     );

@@ -65,10 +65,11 @@ main {
   text-align: center;
   left: 0;
   justify-content: center;
-  height: 100px;
+  /* margin: 5px; */
   align-items: center;
   display: flex;
   right: 0;
+  padding: 5px;
   pointer-events: none;
   position: relative;
 }
@@ -128,8 +129,12 @@ main {
   margin: 10px
 }
 
+.mainDiv {
+  height: 100vh;
+}
+
 .KanjiDisplay {
-  height: 600px;
+  height: 70%;
   position: relative;
   border: 5px;
   border-color: var(--color-tone-3);

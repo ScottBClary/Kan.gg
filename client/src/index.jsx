@@ -5,6 +5,8 @@ import axios from 'axios';
 import EntryField from './components/entryField.jsx';
 import KanjiDisplay from './components/kanjiDisplay.jsx';
 import $ from "jquery";
+import SignIn from './components/signIn.jsx';
+
 var converter = require('jp-conversion');
 const baseURL = "http://localhost:3000";
 class App extends React.Component {
@@ -98,11 +100,12 @@ class App extends React.Component {
   render() {
     console.log('rendering App');
     return (
-      <div>
+      <div className='mainDiv'>
         <p className='titleText'>Kanji Learner</p>
         <EntryField submitFunction={this.submitGuess} ></EntryField>
         <KanjiPicker getKanji={(grade) => {this.getKanji(grade);}}></KanjiPicker>
         <KanjiDisplay kanji={this.state.currentKanji} pronounciation={this.state.currentPronounciation} guessIsCorrect={this.state.resultOfGuess}></KanjiDisplay>
+        <SignIn></SignIn>
       </div>
     );
   }
