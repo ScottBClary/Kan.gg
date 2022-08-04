@@ -1,4 +1,4 @@
-# KanjiMVP
+# Description
 
 This is a kanji learning app similar to WaniKani.
 
@@ -9,7 +9,8 @@ The 2,136 kanji in the jōyō kanji consist of:
 1,026 kanji taught in primary school (Grade 1-6) (the kyōiku kanji)
 1,110 additional kanji taught in secondary school (Grade 7-12)
 
-How to use this program:
+# How to use
+
 Fill your local mysql database with the kanji from the csv using dbPopulator file (change the file location and login info to your info)
 
 Pick a grade (currently just 1-3)
@@ -24,9 +25,9 @@ The app will tell you the result and the correct pronounciation, then you simply
 
 
 
-How it works:
+# How it works
 
-Get html code from wikipedia's kanji page.
+Gets html code from wikipedia's kanji page.
 App.js takes the code and removes non important tables and places result into output.txt
 regExRunner.js uses output.txt and creates output2.txt and then output2.txt into a csv
 The csv is read into a mysql database
