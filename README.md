@@ -11,10 +11,15 @@ The 2,136 kanji in the jōyō kanji consist of:
 
 How to use this program:
 Fill your local mysql database with the kanji from the csv using dbPopulator file (change the file location and login info to your info)
+
 Pick a grade (currently just 1-3)
+
 Press enter or click "get kanji" to get a random kanji that a Japanese student from that grade would be required to know
+
 Type in the pronunciation and press enter to see if you are correct.
+
 The app will tell you the result and the correct pronounciation, then you simply press enter to get another random one from that grade.
+
 
 
 
