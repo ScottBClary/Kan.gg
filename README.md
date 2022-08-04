@@ -13,6 +13,8 @@ The 2,136 kanji in the jōyō kanji consist of:
 
 Fill your local mysql database with the kanji from the csv using dbPopulator file (change the file location and login info to your info)
 
+Run the server
+
 Pick a grade (currently just 1-3)
 
 Press enter or click "get kanji" to get a random kanji that a Japanese student from that grade would be required to know
