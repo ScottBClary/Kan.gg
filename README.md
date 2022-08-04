@@ -2,9 +2,25 @@
 
 This is a kanji learning app similar to WaniKani.
 
+jōyō kanji are kanji that japanese students are required to learn.
+
+The 2,136 kanji in the jōyō kanji consist of:
+
+1,026 kanji taught in primary school (Grade 1-6) (the kyōiku kanji)
+1,110 additional kanji taught in secondary school (Grade 7-12)
+
+How to use this program:
+Fill your local mysql database with the kanji from the csv using dbPopulator file (change the file location and login info to your info)
+Pick a grade (currently just 1-3)
+Press enter or click "get kanji" to get a random kanji that a Japanese student from that grade would be required to know
+Type in the pronunciation and press enter to see if you are correct.
+The app will tell you the result and the correct pronounciation, then you simply press enter to get another random one from that grade.
+
+
 
 
 How it works:
+
 Get html code from wikipedia's kanji page.
 App.js takes the code and removes non important tables and places result into output.txt
 regExRunner.js uses output.txt and creates output2.txt and then output2.txt into a csv
@@ -13,12 +29,12 @@ The csv is read into a mysql database
 
 Now the server can run and serve the database files.
 
+<img width="881" alt="Screen Shot 2022-08-04 at 2 46 41 PM" src="https://user-images.githubusercontent.com/14322119/182940888-b4037bd5-69d8-4d1f-b2f7-0a76cfea887f.png">
 
 
 
 
-
-// Personal Notes from the Author
+// Personal Notes from the Author IGNORE
 Project Goals:
 
   Have a site that is a replica of wanikani. The app will display a kanji and either the kunyomi or onyomi and the user must type it in.
