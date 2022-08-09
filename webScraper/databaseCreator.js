@@ -6,7 +6,12 @@ var db = mysql.createConnection({
   password: '',
   multipleStatements: true,
 });
+/*
+  This query will create a Kanji database with columns for the definition, the pronounciation, and the grade.
 
+
+
+*/
 db.query('CREATE DATABASE IF NOT EXISTS Kanji', (error, results, fields) => {
   if (error) {
     console.log(error);
