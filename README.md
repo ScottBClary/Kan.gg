@@ -2,7 +2,7 @@
 
 This is a kanji learning app similar to WaniKani.
 
-jōyō kanji are kanji that japanese students are required to learn.
+Jōyō kanji are kanji that japanese students are required to learn in school.
 
 The 2,136 kanji in the jōyō kanji consist of:
 
